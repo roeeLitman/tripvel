@@ -11,4 +11,4 @@ const constSchema = new Schema(
 export type Const = ReturnType< () => typeof constSchema>
 
 
-export const SettingsModel = model("Const", constSchema);
+export const ConstsModel = model("Const", constSchema);

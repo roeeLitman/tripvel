@@ -30,4 +30,4 @@ const daySchema = new Schema({
 
 export type Day = ReturnType< () => typeof daySchema>
 
-export const SettingsModel =  model('day', daySchema)
+export const DayModel =  model('day', daySchema)
